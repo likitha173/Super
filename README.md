@@ -29,13 +29,13 @@
 - **APIs:** OpenAI, Google TTS, YouTube API, Unsplash
 
 ### Video Prototype
-![youtube thumbail](https://imgur.com/a/D1H8nZB)
 
-[Watch the tutorial here!](https://youtu.be/uOC95kR6a1Q?si=f5VBk1p0sGd5KGQt)
+https://github.com/user-attachments/assets/7f6f029b-144c-4d03-9063-0cc874b8ffbf
+
 
 Click the thumbnail to watch the video prototype of the solution on YouTube.
 
-## Installation & Setup
+## Installation
 
 1. Clone the repository:
    ```bash
