@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SUPER SERVER - Instant Video Creation Through Text
 
-## Getting Started
+## Team Members
 
-First, run the development server:
+- **Likitha Khatri** | Computer Science Student, VIT Bhopal University | Expected Graduation: 2025  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Aarya Prakhar** | Computer Science Student, VIT Bhopal University | Expected Graduation: 2025  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Overview: Instant Video Creation Through Text
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Description of the Solution
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**SUPER SERVER** is an AI-driven platform that automates the creation of videos from uploaded text documents such as PDFs, brochures, and articles. Helps convert complex documents into engaging video content, complete with quizzes.
 
-## Learn More
+### Key Features:
+1. **Text Upload & Analysis:** Users upload documents (PDFs, brochures), and the system extracts key information using libraries like `PyPDF2`, `pdfplumber`, and Natural Language Processing (NLP) techniques such as Named Entity Recognition (NER).
+2. **Video Script Creation:** The system generates a video script from the extracted information using OpenAI's GPT-4. Users can review and adjust the script before proceeding.
+3. **Video Production:** Using FFmpeg and AWS MediaConvert, the platform automatically generates a video, incorporating relevant visuals (via APIs like Unsplash and YouTube) and audio (Google TTS).
+4. **Quiz Creation:** After the video is generated, an interactive quiz is created based on the content, helping reinforce the material and assess the user’s understanding.
 
-To learn more about Next.js, take a look at the following resources:
+### Tech Stack:
+- **Cloud Service Providers:** AWS, Google Cloud
+- **Backend:** Python (Flask/Django), Node.js
+- **Frontend:** React.js, Tailwind CSS
+- **Database:** PostgreSQL, MySQL
+- **Text Analysis:** PyPDF2, pdfplumber, NLP libraries
+- **Video Production:** FFmpeg, AWS MediaConvert
+- **Analytics:** D3.js, Chart.js
+- **APIs:** OpenAI, Google TTS, YouTube API, Unsplash
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Video Prototype
+![youtube thumbail](https://imgur.com/a/D1H8nZB)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[Watch the tutorial here!](https://youtu.be/uOC95kR6a1Q?si=f5VBk1p0sGd5KGQt)
 
-## Deploy on Vercel
+Click the thumbnail to watch the video prototype of the solution on YouTube.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation & Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/likitha173/Super
