@@ -33,8 +33,6 @@
 https://github.com/user-attachments/assets/7f6f029b-144c-4d03-9063-0cc874b8ffbf
 
 
-Click the thumbnail to watch the video prototype of the solution on YouTube.
-
 ## Installation
 
 1. Clone the repository:
