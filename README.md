@@ -1,10 +1,4 @@
-# SUPER SERVER - Instant Video Creation Through Text
-
-## Team Members
-
-- **Likitha Khatri** | Computer Science Student, VIT Bhopal University | Expected Graduation: 2025  
-
-- **Aarya Prakhar** | Computer Science Student, VIT Bhopal University | Expected Graduation: 2025  
+# SUPER - Instant Video Creation Through Text
 
 ## Project Overview: Instant Video Creation Through Text
 
